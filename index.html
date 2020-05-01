@@ -1,77 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tim's Personal Site</title>
+  <title>Tim Scully</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Patrick+Hand|Varela+Round&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td>
-        <img src="images/circle-cropped-tim.png" alt="Tim profile picture">
-      </td>
-      <td>
-        <h1>Tim Scully</h1>
-        <p><em>Learning the basics of <strong><a href="http://timscully.co.uk">web development</a></strong>.</em></p>
-        <p>This is a bio section, here i would write about what i'm building this website for.</p>
-      </td>
-    </tr>
-  </table>
-  <hr size="3" noshade>
-  <h3>Education</h3>
-  <ul>
-    <li><a href="https://makers.tech">Makers Academy</a></li>
-    <li>School 2</li>
-  </ul>
-  <hr size="3" noshade>
-  <h3>Work Experience</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2004 - 2014</td>
-        <td>Tesco - various roles</td>
-      </tr>
-      <tr>
-        <td>2015 - 2018</td>
-        <td>Ogilvy - digital developer</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr size="3" noshade>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>
-        <table cellspacing="10">
-          <tr>
-            <td>Web development</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Eating</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Gaming</td>
-            <td>⭐⭐</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-  <hr size="3" noshade>
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="contact.html">Contact me</a>
-</body>
+  <div class="top-container">
+    <img class="cloud-top" src="images/cloud.png" alt="cloud image">
+    <h1>I'm Tim</h1>
+    <h2 class="fw-norm">a <span class="web">web</span> developer</h2>
+    <img class="cloud-bottom" src="images/cloud.png" alt="cloud image">
+    <img class="mountain" src="images/mountain.png" alt="mountain image">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/tim.png" alt="">
+      <h2>Hello.</h2>
+      <p>I am a freelance web developer, specialising in advertising <strong>email</strong> and <strong>banner</strong> development</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="email-icon" src="https://media1.giphy.com/media/UWbAjn7z2lJD2rIeUS/giphy.gif?cid=ecf05e47fda356b3125f9b3401dce8f4219e0628aa1872f8&rid=giphy.gif" alt="">
+        <h3>Email Development</h3>
+        <p>Specialising in architecting templates for modular use and sustainability. All emails are built responsively with the option of kinetic capabilities e.g video and animation. Templates are hand-coded and/or built directly into an ESP for easy editing and updating.</p>
+      </div>
+      <div class="skill-row">
+        <img class="banner-icon" src="images/banner-icon.png" alt="">
+        <h3>Banner Development</h3>
+        <p>Creating animated banners from Storyboards and PSDs. Working closing with Project Management and Account Management to develop banners that work across all browsers from IE9+ to Chrome and everything in between.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+      <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+      <a class="btn" href="mailto:hello@timscully.co.uk">CONTACT ME</a>
+    </div>
+  </div>
 
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/tim-scully/">LinkedIn</a>
+    <a class="footer-link" href="https://instagram.com/fastfoodphotography">Twitter</a>
+    <a class="footer-link" href="https://www.timscully.co.uk/">Website</a>
+    <p class="copyright">© 2020 Tim Scully.</p>
+  </div>
+
+</body>
 </html>
